@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naveen Hemanth - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-content">
+            <h1>Portfolio</h1>
+            <ul>
+                <li><a href="#summary">Summary</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#activities">Activities</a></li>
+            </ul>
+            <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
+                <i class="fas fa-moon"></i>
+            </button>
+        </div>
+    </nav>
+
+    <header>
+        <div class="header-content">
+            <h1>Naveen Hemanth</h1>
+            <h2>Full-Stack Developer & CS Undergraduate</h2>
+            <div class="contact-info">
+                <p><i class="fas fa-envelope"></i> naveenhemanth4@gmail.com</p>
+                <p><i class="fas fa-phone"></i> +91 6300296968</p>
+                <p><i class="fas fa-map-marker-alt"></i> Hyderabad, India</p>
+            </div>
+            <div class="social-links">
+                <a href="https://github.com/hemanth090" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/hemanthkokkonda/" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </div>
+            <a href="#" class="download-btn">Download Resume</a>
+        </div>
+    </header>
+
+    <main>
+        <section id="summary">
+            <h2>Summary</h2>
+            <p>Computer Science undergraduate specializing in full-stack development and AI/ML technologies. Experienced in developing scalable web applications using Python, React.js, and Flask. Passionate about solving complex problems and building impactful software solutions.</p>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <div class="education-item">
+                <h3>Bachelor of Technology, Computer Science</h3>
+                <p class="institution">Sreyas Institute of Engineering and Technology, Hyderabad, India</p>
+                <p class="duration">Oct 2022 – Jun 2026</p>
+                <p class="gpa">GPA: 7.38 / 10</p>
+                <p class="courses">Data Structures, Algorithms, OOP, DBMS, Operating Systems, Networks, AI, Web Development</p>
+            </div>
+            <div class="education-item">
+                <h3>Intermediate, MPC</h3>
+                <p class="institution">Sri Chaitanya Junior College, Khammam, India</p>
+                <p class="duration">Aug 2020 - Mar 2022</p>
+                <p class="percentage">Percentage: 85.9%</p>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Programming</h3>
+                    <ul>
+                        <li>Python</li>
+                        <li>C</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Frontend</h3>
+                    <ul>
+                        <li>React.js</li>
+                        <li>JavaScript</li>
+                        <li>HTML/CSS</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Database</h3>
+                    <ul>
+                        <li>SQL</li>
+                        <li>MongoDB</li>
+                        <li>Supabase</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Backend</h3>
+                    <ul>
+                        <li>Flask</li>
+                        <li>FastAPI</li>
+                        <li>Streamlit</li>
+                        <li>RESTful APIs</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Tools</h3>
+                    <ul>
+                        <li>Git</li>
+                        <li>VS Code</li>
+                        <li>Docker</li>
+                        <li>AWS</li>
+                        <li>Postman</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>Featured Projects</h2>
+            <div class="project-filters">
+                <button class="active" data-filter="all">All</button>
+                <button data-filter="ml-ai">ML/AI</button>
+                <button data-filter="web">Web</button>
+                <button data-filter="backend">Backend</button>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card" data-category="ml-ai">
+                    <h3>ATS-V2</h3>
+                    <p class="tech-stack">Python • Flask • Groq API • Docker</p>
+                    <p class="project-description">An intelligent resume analysis system that uses AI to match job descriptions and evaluate resumes. It processes PDF documents, extracts key information, and provides ATS compatibility scores along with actionable improvement suggestions. The system is containerized with Docker for easy deployment and scaling.</p>
+                    <a href="https://github.com/hemanth090/ATS-V2" class="project-link" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-github"></i> View on GitHub
+                    </a>
+                </div>
+
+                <div class="project-card" data-category="web">
+                    <h3>Expense Tracker</h3>
+                    <p class="tech-stack">React • Supabase • Material-UI</p>
+                    <p class="project-description">A comprehensive personal finance management application that helps users track their expenses in real-time. Built with React and Material-UI, it features secure authentication through Supabase, intuitive data visualization, and responsive design that works seamlessly across all devices.</p>
+                    <a href="https://github.com/hemanth090/expense-tracker" class="project-link" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-github"></i> View on GitHub
+                    </a>
+                </div>
+
+                <div class="project-card" data-category="ml-ai">
+                    <h3>Multi-Chat-AI</h3>
+                    <p class="tech-stack">Python • AI/ML • Multiple AI Models</p>
+                    <p class="project-description">A versatile chat application that supports multiple AI models, allowing users to switch between different models in real-time. The system maintains conversation context across models and offers customizable settings for an enhanced chat experience.</p>
+                    <a href="https://github.com/hemanth090/Multi-Chat-AI" class="project-link" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-github"></i> View on GitHub
+                    </a>
+                </div>
+
+                <div class="project-card" data-category="web">
+                    <h3>Portfolio Site</h3>
+                    <p class="tech-stack">HTML • CSS • JavaScript</p>
+                    <p class="project-description">A modern, responsive portfolio website built with clean code and best practices. Features include interactive project filtering, smooth navigation, and a professional presentation of skills and achievements. The site is optimized for performance and accessibility.</p>
+                    <a href="https://github.com/hemanth090/Portfolio-Site" class="project-link" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-github"></i> View on GitHub
+                    </a>
+                </div>
+
+                <div class="project-card" data-category="data-science">
+                    <h3>Market Analysis</h3>
+                    <p class="tech-stack">Python • Streamlit • yfinance • Neo4j • Altair</p>
+                    <p class="project-description">A Streamlit application that fetches and analyzes stock prices using Yahoo Finance data. Features include historical stock price visualization, Neo4j database integration for data storage, and interactive charts using Altair. Users can track stock performance over time and download data for further analysis.</p>
+                    <a href="https://github.com/hemanth090/MarketAnalysis" class="project-link" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-github"></i> View on GitHub
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="certifications">
+            <h2>Certifications</h2>
+            <div class="certifications-grid">
+                <div class="cert-card">
+                    <h3>IBM Watson Assistant</h3>
+                    <p class="date">November 21, 2024</p>
+                    <a href="#" class="view-cert">View Certificate</a>
+                </div>
+                <div class="cert-card">
+                    <h3>Python Basics</h3>
+                    <p class="date">September 2024</p>
+                    <a href="#" class="view-cert">View Certificate</a>
+                </div>
+                <div class="cert-card">
+                    <h3>MongoDB Developer</h3>
+                    <p class="date">January 12, 2024</p>
+                    <a href="#" class="view-cert">View Certificate</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="activities">
+            <h2>Extracurricular Activities</h2>
+            <div class="activities-grid">
+                <div class="activity-card">
+                    <h3>Hackathons & Competitions</h3>
+                    <p>Participated in many hackathons and coding competitions, consistently delivering innovative solutions to complex problems. Developed strong problem-solving and teamwork skills.</p>
+                </div>
+                <div class="activity-card">
+                    <h3>Student Mentorship</h3>
+                    <p>Mentored few students in Python programming and full-stack development, helping them build strong foundations in coding and web development.</p>
+                </div>
+                <div class="activity-card">
+                    <h3>Technical Workshops</h3>
+                    <p>Actively participated in technical workshops, sharing knowledge and best practices in modern web development technologies.</p>
+                </div>
+            </div>
+        </section>
+
+        <div id="quote">
+            <blockquote>
+                "No amount of money ever bought a second of time"
+            </blockquote>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Naveen Hemanth. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
